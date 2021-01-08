@@ -1,4 +1,9 @@
 
+/* este exercicio precisa ser melorado, porqeu os Ìmpares
+estao dando mesmo resultado dos pares*/
+
+
+
 package com.mycompany.somaparesr111;
 
 import java.util.Scanner;
@@ -17,15 +22,16 @@ public class SomaPar {
                 System.out.println("N√∫mero Pare = " + i);
             somapar += i;
             }else{
-                System.out.println("N√∫mero √çmpares = " + i);
+                System.out.println("N√∫mero √?mpares = " + i);
             somaimpar += i;
             }
         }
         System.out.println("Soma dos Pares =  " + somapar);
-        System.out.printf("Soma dos √çmpares =  " + somaimpar);
+        System.out.printf("Soma dos √?mpares =  " + somaimpar);
     }
     
 }
+
 
 
 
