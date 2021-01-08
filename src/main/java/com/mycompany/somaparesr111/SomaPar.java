@@ -1,8 +1,4 @@
 
-/* este exercicio precisa ser melorado, porqeu os ímpares
-estao dando mesmo resultado dos pares*/
-
-
 
 package com.mycompany.somaparesr111;
 
@@ -15,22 +11,22 @@ public class SomaPar {
         int somapar = 0;
         int somaimpar = 0;
         Scanner ler = new Scanner(System.in);
-        System.out.printf("Digite um número inteiro positivo: ");
+        System.out.printf("Digite um numero inteiro positivo: ");
         n = ler.nextInt();
         for ( i = 1; i < n; i++) {
             if( i % 2 == 0){
-                System.out.println("Número Pare = " + i);
             somapar += i;
-            }else{
-                System.out.println("Número ímpares = " + i);
+            }else{ 
             somaimpar += i;
             }
         }
         System.out.println("Soma dos Pares =  " + somapar);
-        System.out.printf("Soma dos ímpares =  " + somaimpar);
+        System.out.printf("Soma dos impares =  " + somaimpar);
     }
     
 }
+
+
 
 
 
