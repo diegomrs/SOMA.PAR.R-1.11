@@ -15,22 +15,23 @@ public class SomaPar {
         int somapar = 0;
         int somaimpar = 0;
         Scanner ler = new Scanner(System.in);
-        System.out.printf("Digite um nÃºmero inteiro positivo: ");
+        System.out.printf("Digite um número inteiro positivo: ");
         n = ler.nextInt();
         for ( i = 1; i < n; i++) {
             if( i % 2 == 0){
-                System.out.println("NÃºmero Pare = " + i);
+                System.out.println("Número Pare = " + i);
             somapar += i;
             }else{
-                System.out.println("NÃºmero Ã?mpares = " + i);
+                System.out.println("Número ímpares = " + i);
             somaimpar += i;
             }
         }
         System.out.println("Soma dos Pares =  " + somapar);
-        System.out.printf("Soma dos Ã?mpares =  " + somaimpar);
+        System.out.printf("Soma dos ímpares =  " + somaimpar);
     }
     
 }
+
 
 
 
